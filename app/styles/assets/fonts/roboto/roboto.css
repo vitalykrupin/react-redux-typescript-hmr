@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url('Robotobolditalic.woff2') format('woff2'), url('Robotobolditalic.woff') format('woff'), url('Robotobolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black'), local('Roboto-Black'), url('Robotoblack.woff2') format('woff2'), url('Robotoblack.woff') format('woff'), url('Robotoblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url('Robotoblackitalic.woff2') format('woff2'), url('Robotoblackitalic.woff') format('woff'), url('Robotoblackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}

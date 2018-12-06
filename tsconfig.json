@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "paths": {
+            "@components/*": [ "app/components/*" ],
+            "@screens/*": [ "app/screens/*" ],
+            "@core/*": [ "app/core/*" ],
+            "@root/*": [ "app/*" ],
+            "@store/*": [ "app/store/*" ]
+        },
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "es5",
+        "jsx": "react",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "strict": true,
+        "lib": [ "es2017", "dom" ],
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "bin",
+        "node_modules"
+    ]
+}

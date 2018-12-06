@@ -1,0 +1,54 @@
+﻿.example {
+    margin: 20px;
+    text-align: center;
+    width: 170px;
+
+    &__icn {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 10px;
+        background-image: url('../../styles/assets/images/react.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    &__value {
+        display: inline-block;
+        margin-bottom: 10px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    &__btns {
+        display: flex;
+        justify-content: space-around;
+
+        .btn {
+            font-size: 13px;
+            font-weight: bold;
+            color: rgb(68,68,68);
+            text-decoration: none;
+            user-select: none;
+            outline: none;
+            padding: 4px 7px;
+            border: 1px solid rgba(0,0,0,0.1);
+            border-radius: 2px;
+            background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+            transition: all 0.3s;
+
+            &:hover {
+                color: rgb(24,24,24);
+                border: 1px solid rgb(198,198,198);
+                background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+                box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+            }
+
+            &:active {
+                color: rgb(51,51,51);
+                border: 1px solid rgb(204,204,204);
+                background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+                box-shadow: 0 1px 2px rgba(0,0,0,0.1) inset;
+            }
+        }
+    }
+}

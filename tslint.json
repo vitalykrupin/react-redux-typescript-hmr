@@ -1,0 +1,49 @@
+{
+  "extends": [],
+  "linterOptions": {
+    "exclude": [
+      "node_modules"
+    ]
+  },
+  "rules": {
+    "only-arrow-functions": true,
+    "curly": true,
+    "forin": true,
+    "no-arg": true,
+    "no-conditional-assignment": true,
+    "no-console": [ true, "log", "error" ],
+    "no-debugger": true,
+    "no-construct": true,
+    "no-eval": true,
+    "no-empty": [ true, "allow-empty-catch", "allow-empty-functions" ],
+    "no-duplicate-switch-case": true,
+    "no-duplicate-super": true,
+    "no-invalid-template-strings": true,
+    "no-return-await": true,
+    "no-string-literal": true,
+    "no-string-throw": true,
+    "no-switch-case-fall-through": true,
+    "no-unused-expression": [ true, "allow-fast-null-checks", "allow-new", "allow-tagged-template" ],
+    "no-var-keyword": true,
+    "prefer-conditional-expression": true,
+    "switch-default": true,
+    "prefer-object-spread": true,
+    "use-isnan": true,
+    "triple-equals": true,
+    "max-line-length": [ true, 160 ],
+    "eofline": true,
+    "no-duplicate-imports": true,
+    "max-classes-per-file": [ true, 1 ],
+    "indent": [ true, "spaces", 4 ],
+    "arrow-return-shorthand": true,
+    "class-name": true,
+    "comment-format": [ true, "check-space" ],
+    "interface-name": [ true, "always-prefix" ],
+    "jsdoc-format": true,
+    "no-redundant-jsdoc": true,
+    "no-trailing-whitespace": true,
+    "prefer-method-signature": true,
+    "semicolon": [ true, "always" ]
+  },
+  "_comment": "set next rules: \"await-promise\": true, \"no-for-in-array\": true, \"no-floating-promises\": true, \"no-unused-variable\": true,  \"no-use-before-declare\": true, \"use-default-type-parameter\": true, \"match-default-export-name\": true, \"no-boolean-literal-compare\": true, "
+}

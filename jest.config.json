@@ -1,0 +1,33 @@
+{
+    "setupFiles": [
+        "<rootDir>test-setup.js"
+    ],
+    "transform": {
+        "^.+\\.tsx?$": "ts-jest"
+    },
+    "testURL": "http://localhost/",
+    "verbose": true,
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "node"
+    ],
+    "coverageReporters": [
+        "json",
+        "html"
+    ],
+    "coverageDirectory": "./build/coverage",
+    "moduleNameMapper": {
+        "^@core(.*)$": "<rootDir>/app/core$1",
+        "^@components(.*)$": "<rootDir>/app/components$1",
+        "^@screens(.*)$": "<rootDir>/app/screens$1",
+        "^@root(.*)$": "<rootDir>/app$1",
+        "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+        "\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js"
+    },
+    "coveragePathIgnorePatterns": [ "<rootDir>/test-setup.js" ]
+}
