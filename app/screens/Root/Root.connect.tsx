@@ -1,7 +1,7 @@
 ﻿import { connect } from 'react-redux';
 
 import * as models from './models';
-import { IApplicationState } from '@store/store.model';
+import { IApplicationState } from '@root/store';
 
 import Root from './Root';
 import { increment, decrement } from './actions';

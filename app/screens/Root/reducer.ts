@@ -1,8 +1,6 @@
-﻿import { Reducer } from 'redux';
-
+import { Reducer } from 'redux';
 import * as models from './models';
-import { IRootState } from '@store/store.model';
-
+import { IRootState } from '@root/store';
 import * as consts from './constants';
 
 const INITIAL_STATE: IRootState = {
@@ -25,4 +23,6 @@ export const reducer: Reducer<IRootState, models.KnownAction> =
             default:
                 return state;
         }
-};
+    };
+
+export default reducer;

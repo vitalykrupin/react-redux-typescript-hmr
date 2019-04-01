@@ -9,6 +9,7 @@ import * as consts from './constants';
 import Button from '@components/Button';
 
 export default class Root extends React.Component<models.RootProps> {
+
     public render(): JSX.Element | null {
         const { value, increment, decrement } = this.props;
         return (

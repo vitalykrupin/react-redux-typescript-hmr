@@ -31,6 +31,7 @@ module.exports = (args) => {
             stats: 'errors-only',
             hot: true,
             historyApiFallback: true,
+            clientLogLevel: 'warning',
             headers: {
                 'Access-Control-Allow-Origin': '*',
             },

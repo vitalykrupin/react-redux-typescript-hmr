@@ -1,16 +1,15 @@
-﻿import './styles/main.scss';
-
+import './styles/main.scss';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { AppContainer } from 'react-hot-loader';
-import configureStore from './store/store';
 import { createRootElementIn } from '@core/utils';
 import Root from '@screens/Root';
+import store from './store';
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    const store = configureStore();
+    const appStore = store.store;
 
     const root = (() => {
         return createRootElementIn(document.body);
@@ -19,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const render = (Component) => {
         ReactDOM.render(
             <AppContainer>
-                <Provider store={store}>
+                <Provider store={appStore}>
                     <Root />
                 </Provider>
             </AppContainer>,

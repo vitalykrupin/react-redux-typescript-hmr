@@ -102,7 +102,8 @@ module.exports = (config) => {
                 async: true,
                 watch: path.join([ROOT, compile.src].join('')),
                 tsconfig: './tsconfig.json',
-                tslint: true
+                tslint: true,
+                tslintAutoFix: true
             })
         ],
         module: {

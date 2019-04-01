@@ -8,7 +8,7 @@
     "major": "npm run test && webpack --env.type=major --env.dist -p --config webpack.config.prod.js && npm run test:coverage",
     "build": "webpack -p --config webpack.config.prod.js --progress --colors --display-error-details",
     "dev": "webpack --env.dev --config webpack.config.dev.js --progress",
-    "start": "webpack-dev-server --config webpack.config.dev.js --progress",
+    "start": "webpack-dev-server --config webpack.config.dev.js --progress --open",
     "test": "jest --config jest.config.json --no-cache",
     "test:watch": "npm test -- --watchAll",
     "test:coverage": "jest --config jest.config.json --coverage"
@@ -67,7 +67,7 @@
     "tslint-loader": "^3.6.0",
     "typedoc": "^0.11.1",
     "typedoc-webpack-plugin": "^1.1.4",
-    "typescript": "^2.9.2",
+    "typescript": "^3.0.3",
     "url-loader": "^1.0.1",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.7",
